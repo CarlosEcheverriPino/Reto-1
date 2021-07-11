@@ -2,12 +2,14 @@
     margin: 0;
     padding: 0;
     color: #fff;
-    font-size: 20px;
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
 }
 
 body{
     background-color: hsl(233, 47%, 7%);
-    padding: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .modelbox{
@@ -35,7 +37,7 @@ body{
 }
 
 span{
-font-size: 40px;
+font-size: 30px;
 color:  rgb(223, 68, 215);
 }
 
@@ -64,6 +66,11 @@ img{
     font-size: 25px;
 }
 
+.texcontainer__description{
+    margin-top: 50px;
+}
+
+
 @media only screen and (max-width: 1180px){
     *{
         text-align: center;
@@ -71,7 +78,7 @@ img{
     
     .modelbox{
         width: 375px;
-        height: 980px;
+        height: 900px;
     }
 
 
@@ -83,13 +90,17 @@ img{
         align-items: center;
     }
 
+    .texcontainer__description{
+        margin-top: 50px;
+    }
+
     .imagencontainer{
         width: 375px;
-        height: 309.2px;
+        height: 310px;
     }
 
     .textcontainer{
-        height: 980px;
+        height: 900px;
         background-color: hsl(244, 38%, 16%);
         padding: 5% 5% 5% 5%; 
         }
