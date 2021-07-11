@@ -45,9 +45,8 @@ img{
 }
 
 .textcontainer__element{
-    margin-top: 50px;
+    margin-top: 80px;
     display: flex;
-    text-align: center;
     justify-content: space-between;
 }
 
@@ -61,3 +60,45 @@ img{
     height: 125px;
 }
 
+.textcontainer__element b{
+    font-size: 25px;
+}
+
+@media only screen and (max-width: 1180px){
+    *{
+        text-align: center;
+    }
+    
+    .modelbox{
+        width: 375px;
+        height: 980px;
+    }
+
+
+
+    .textcontainer__element{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .imagencontainer{
+        width: 375px;
+        height: 309.2px;
+    }
+
+    .textcontainer{
+        height: 980px;
+        background-color: hsl(244, 38%, 16%);
+        padding: 5% 5% 5% 5%; 
+        }
+
+    .textcontainer__element div{
+        width: 125px;
+        height: 90px;
+    }
+
+
+
+}
