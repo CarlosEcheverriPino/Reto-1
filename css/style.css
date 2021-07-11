@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: hsl(233, 47%, 7%);
+    padding: 50px;
+}
+
+.modelbox{
+    margin: auto;
+    background-color: rgb(223, 68, 215);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1080px;
+    flex-direction:row-reverse
+}
+
+.imagencontainer{
+    width: 540px;
+    height: 446px
+}
+
+.textcontainer{
+    width: 540px;
+    height: 446px;
+    background-color: hsl(244, 38%, 16%); 
+}
+
+img{
+    opacity: 0.5;
+    
+}
